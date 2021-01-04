@@ -61,7 +61,7 @@ google_analytics: UA-XXXXXXXXX # out your google-analytics code
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: Your's truly  # your blog must have a name for it to show up in the nav bar
+blog_name:  # your blog must have a name for it to show up in the nav bar
 blog_description: Knowledge graphs, Semantic Web, Information extraction, Question Answering and Deep Learning
 permalink: /blog/:year/:title/
 
