@@ -21,7 +21,7 @@ I am a Staff Research Scientist at Siemens. As a researcher I work on a gamut of
 * **Vision** : Object detection, Personal Protective equipment and clothing detection on Factory work floors.
 * **Knowledge Graphs** : Multi modal knowledge graph construction, representation and optimization.
 
-Prior to Siemens I got my PhD at RPI, where I worked with James A Hendler and Deborah McGuinness on knowledge graphs, query reformulation, entity summarization, knowledge graph construction, Ontology development, Ontology alignment. I also had a chance to work on the IBM Watson question answering framework at RPI.
+Prior to Siemens I got my PhD at RPI, where I worked with [Jim Hendler](https://www.cs.rpi.edu/~hendler/) and [Deborah McGuinness](https://en.wikipedia.org/wiki/Deborah_McGuinness) on knowledge graphs, query reformulation, entity summarization, knowledge graph construction, Ontology development, Ontology alignment. I also had a chance to work on the IBM Watson question answering framework at RPI.
 
 I had two fruitful internships at IBM TJ Watson research center and worked on summarization and query reformulation.
 
