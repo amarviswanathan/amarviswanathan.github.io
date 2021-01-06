@@ -10,4 +10,5 @@ group :jekyll_plugins do
     gem 'jemoji'
     gem 'unicode_utils'
     gem 'jekyll-pdf-embed'
+    gem 'jekyll-octicons'
 end

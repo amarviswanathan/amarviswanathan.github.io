@@ -53,7 +53,7 @@ blogger_url: # your blogger URL
 keybase_username: # your keybase user name
 
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+ 
 
 google_analytics: UA-XXXXXXXXX # out your google-analytics code
 
@@ -118,8 +118,8 @@ plugins:
   - jekyll/scholar
   - jekyll-twitter-plugin
   - jemoji
-  # - bootstrap
-  # - material-sass
+  - bootstrap
+  - material-sass
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
