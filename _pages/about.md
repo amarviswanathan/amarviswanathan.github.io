@@ -27,7 +27,7 @@ I had two fruitful internships at IBM TJ Watson research center and worked on su
 
 Before RPI I also worked as a senior software engineer in text analytics at Infosys Technologies limited where I focused on Natural Language processing, specifically pattern oriented NLP.
 
-For more of my open source contributions ![GitHub followers](https://img.shields.io/github/followers/amarviswanathan?label=Follow%20%40amarviswanathan&style=social)
+For more of my open source contributions :   <a class="github-button" href="https://github.com/amarviswanathan" data-show-count="true" aria-label="Follow on github"> Follow @amarviswanathan</a>
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com){:target="\_blank"}. You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
