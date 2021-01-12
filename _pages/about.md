@@ -17,7 +17,7 @@ social: true  # includes social icons at the bottom of the page
 I am a Staff Research Scientist at Siemens. As a researcher I work on a gamut of problems that fall at the intersection of Knowledge graph representation and construction, optimization, vision and language. My day to day work encompasses three fields of AI :
 
 * **Language** : NLP, deep learning for information extraction, large scale question answering.
-* **Vision & Language ** : Visual question answering, Visual query reformulation.
+* **Vision & Language** : Visual question answering, Visual query reformulation.
 * **Knowledge Graphs** : Multi modal knowledge graph construction, representation and optimization.
 
 Prior to Siemens I got my PhD at RPI, where I worked with [Jim Hendler](https://www.cs.rpi.edu/~hendler/) and [Deborah McGuinness](https://en.wikipedia.org/wiki/Deborah_McGuinness) on knowledge graphs, query reformulation, entity summarization, knowledge graph construction, Ontology development, Ontology alignment. I also had a chance to work on the IBM Watson question answering framework at RPI.
