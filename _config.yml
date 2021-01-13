@@ -40,10 +40,10 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # Social integration
 # -----------------------------------------------------------------------------
 
-github_username: amarviswanathan # your GitHub user name
-twitter_username: amarv # your Twitter handle
-linkedin_username: amarviswanathan# your LinkedIn user name
-scholar_userid: 1YecUQMAAAAJ&hl=en# your Google Scholar ID
+github_username: amarviswanathan
+twitter_username: amarv
+linkedin_username: amarviswanathan
+scholar_userid: 1YecUQMAAAAJ&hl=en
 orcid_id: # your ORCID ID
 medium_username: # your Medium username
 quora_username: # your Quora username
