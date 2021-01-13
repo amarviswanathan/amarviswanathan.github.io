@@ -19,9 +19,16 @@ layout: default
       {% endif %}
       {% if page.profile.address %}
         <div class="address">
-          {{ page.profile.address }}
+          {{ page.profile.address}}
         </div>
       {% endif %}
+    {% if page.social %}
+    <div class="social">
+       <span class="contacticon center">
+      {% include social.html %}
+    </div>
+
+    {% endif %}
     </div>
     {% endif %}
 
@@ -39,6 +46,7 @@ layout: default
 
     {% if page.social %}
     <div class="social">
+    <span class="contact-icon center">
       {% include social.html %}
       <div class="contact-note">{{ site.contact_note }}</div>
     </div>
