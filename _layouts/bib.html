@@ -9,7 +9,10 @@
     {% else %}
     <abbr class="badge">{{entry.abbr}}</abbr>
     {% if entry.keyword %}
-    <span class="award badge">{{entry.keyword}}</span>
+    {% assign words = entry.keyword | split: ", " %}
+    {% for word in words %}
+    <span class="award badge">{{word}}</span>
+    {% endfor %}
     {% endif %}
     {% endif %}
   {% endif %}
