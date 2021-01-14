@@ -11,4 +11,5 @@ group :jekyll_plugins do
     gem 'unicode_utils'
     gem 'jekyll-pdf-embed'
     gem 'jekyll-octicons'
+    gem 'jekyll-youtube'
 end
