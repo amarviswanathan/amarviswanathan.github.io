@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /assets/pdf/cv_jan_2021.pdf
+permalink: /assets/pdf/AmarViswanathan_CV.pdf
 title: cv
 description: Resume page
 nav: true
