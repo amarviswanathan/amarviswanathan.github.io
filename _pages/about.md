@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-description: Research Scientist
+description: ML Manager/ Researcher/ Research Scientist
 
 profile:
   align: right
