@@ -14,13 +14,13 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a Machine Learning Research Manager at Verisk AI. As a researcher I work on a gamut of problems that fall at the intersection of Knowledge graph representation and construction, optimization, vision and language. My day to day work encompasses three fields of AI :
+I am an Expert (Principal) Scientist at SAP Labs, LLC (Palo Alto) . As a researcher I work on a gamut of problems that fall at the intersection of Knowledge graph representation and construction, Retrieval augmented generation (RAG), Knowledge graph RAG (KG-RAG), vision and language. My day to day work encompasses three fields of AI :
 
 * **Language** : NLP, deep learning for information extraction, large scale question answering.
 * **Vision & Language** : Visual question answering, Visual query reformulation.
 * **Knowledge Graphs** : Multi modal knowledge graph construction, representation and optimization.
 
-Prior to Verisk AI, I was a Lead ML Scientist at Best Buy AI where I worked on creating large scale knowledge graphs for the search and recommendation platform. Prior to that I was a Staff Research Scientist at Siemens Corporate Research. I got my PhD at RPI, where I worked with [Jim Hendler](https://www.cs.rpi.edu/~hendler/) and [Deborah McGuinness](https://en.wikipedia.org/wiki/Deborah_McGuinness) on knowledge graphs, query reformulation, entity summarization, knowledge graph construction, Ontology development, Ontology alignment. I also had a chance to work on the IBM Watson question answering framework at RPI.
+In my previous assignments I have worked at Dataminr as a Senior Research Scientist. Prior to that I was a Staff Research Scientist at Siemens Corporate Research. I got my PhD at RPI, where I worked with [Jim Hendler](https://www.cs.rpi.edu/~hendler/) and [Deborah McGuinness](https://en.wikipedia.org/wiki/Deborah_McGuinness) on knowledge graphs, query reformulation, entity summarization, knowledge graph construction, Ontology development, Ontology alignment. I also had a chance to work on the IBM Watson question answering framework at RPI.
 
 I had two fruitful internships at IBM TJ Watson research center and worked on summarization and query reformulation.
 
