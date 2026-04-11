@@ -3,7 +3,7 @@ cv:
   email: amarviswanathan@gmail.com
   location: New York, NY
   summary: |
-    Applied Science leader with 12+ years of experience (8+ years post-PhD in industry) and 3 years of formal people management — hiring, performance reviews, and goal-setting — leading teams of MLEs and Senior Scientists at Amazon, SAP, Verisk, and Siemens Research. Delivered 6 production launches across B2C ads, enterprise AI, financial news, and insurance, driving \$26M+ in combined business and research impact.
+    Applied Science leader with 12+ years of experience (8+ years post-PhD in industry) and 3 years of formal people management — hiring, performance reviews, and goal-setting — leading teams of MLEs and Senior Scientists at Amazon, SAP, Verisk, and Siemens Research. Delivered 6 production launches across B2C ads, enterprise AI, financial news, and insurance, driving $26M+ in combined business and research impact.
   social_networks:
     - network: X
       username: amarv
@@ -22,149 +22,279 @@ cv:
         start_date: 2011
         end_date: 2018
         score: ""
-        Thesis: "Schema-and data-aware query reformulation in knowledge graphs"
+        Thesis: "Schema- and Data-aware Query Reformulation in Knowledge Graphs"
         highlights:
           - AAAI 2016 Doctoral Consortium Award.
           - 3MT Thesis finalist.
 
+      - institution: Rensselaer Polytechnic Institute
+        location: Troy, NY
+        url: https://www.rpi.edu/
+        area: Computer Science
+        studyType: M.S.
+        start_date: 2014
+        end_date: 2016
+
+      - institution: Anna University
+        location: Chennai, India
+        area: Computer Science
+        studyType: B.E.
+        start_date: 2003
+        end_date: 2007
+
     Experience:
-      - company: Siemens Corporate Research
-        position: Research Scientist and Acting Senior Key Expert
-        location: Princeton University, NJ
-        start_date: 2018
-        end_date: 2021
-        summary: Worked on 
+      - company: Amazon Ads & Special Projects
+        position: Senior Applied Scientist
+        location: New York, NY
+        start_date: 2025-04-01
+        end_date: present
         highlights:
-          - 
-          - Description 2.
+          - "Tech Lead & Single Threaded Owner — TACTIC: Designed and launched the first agentic targeting clause promotion/demotion system for 69M+ worldwide ad campaigns; estimated $3M+ in ads revenue impact. 2+ patent applications in progress."
+          - "Tech Lead & Single Threaded Owner — AutoTrends: Autonomous trend-aware LLM agentic system using a two-stage gated trend engine for detecting implicit and explicit trends in targeting; 1.3× performance lift across 69M+ campaigns."
+          - "Single Threaded Owner — Distributed Optimization System: Scalable DSPy-powered explainability framework orchestrated via Apache Airflow on EMR clusters; beta launched April 2026."
+          - "Mentored junior scientists on agentic AI architectures and CoT evaluation frameworks, establishing team-wide best practices."
 
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
+      - company: SAP Labs
+        position: Principal Scientist
+        location: Palo Alto, CA
+        start_date: 2024-03-01
+        end_date: 2025-03-01
         highlights:
-          - Description 1.
-          - Description 2.
+          - "Shipped SAP Consultant Capability (SCC) to General Availability (Q4 2024) — flagship enterprise RAG product driving $22M in business impact, serving 22K multi-turn conversations/day at precision 0.79."
+          - "Formally managed cross-functional team; grew direct reports from 2 to 8 (including interns); scaled total team to 16. Conducted structured 1:1s, set OKRs, delivered performance reviews."
+          - "Architected end-to-end KG-RAG pipeline; fine-tuned BGE-EN-ICL retrieval model and Claude 3.5 Sonnet generation model; deployed multi-node Milvus DB; optimized inference via vLLM."
+          - "Developed strong RAG evaluation framework incorporating domain experts and RAGAS-based LLM-as-a-judge methodology (patent application in progress)."
+          - "Published at ECIR 2025 and SIGIR; 3+ patent applications in progress."
 
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
-
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
-
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
-        location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
-
-    Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
+      - company: Dataminr
+        position: Senior Research Scientist
+        location: New York, NY
+        start_date: 2022-07-01
+        end_date: 2024-02-01
         highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
+          - "Launched RAG-based fact retrieval system using E5-Mistral embeddings and fine-tuned LLaMA-7B; achieved 82% factual accuracy on production data processing 19M tweets/day."
+          - "Designed hallucination detection and correction system for summarization pipeline (mBART + GPT), correcting 802K hallucinated entities per day at 66% accuracy."
+          - "Built end-to-end knowledge graph construction pipeline (Neo4j) processing 19M tweets/day; fine-tuned BERT for NER, LUKE for relation extraction (precision 70.2); orchestrated via Apache Airflow and Databricks."
+
+      - company: Verisk AI
+        position: Machine Learning Research Manager
+        location: New York, NY
+        start_date: 2021-06-01
+        end_date: 2022-07-01
+        highlights:
+          - "Formally managed a team of 5 MLEs — conducted hiring, structured 1:1s, set quarterly OKRs, and delivered performance reviews."
+          - "Secured $250,000 in DARPA funding by assembling a team and leading proposal submissions — a net-new revenue stream for Verisk."
+          - "Shipped abstractive summarization system for large-scale multimodal event news (ROUGE-F1 > 35%, deployed on Apache Airflow)."
+          - "Shipped event knowledge graph ('The Machine') with 1M+ entities and 80 property edges, driving $1M+ business need for Verisk clients."
+
+      - company: Siemens Corporate Technology
+        position: Acting Senior Key Expert / Staff Research Scientist
+        location: Princeton, NJ
+        start_date: 2018-08-01
+        end_date: 2021-05-01
+        highlights:
+          - "Co-Principal Investigator on $1.8M DARPA ASKE program (Deep Code Curator); led 15 members across industry and academic partners across two successful program phases."
+          - "Managed 2 research scientists and 2 software engineers on multimodal KG and visual QA projects."
+          - "Built end-to-end BiLSTM-CRF extraction pipeline converting 960 scientific papers into queryable RDF knowledge graphs."
+          - "Developed KG-enabled caption generation and Visual QA systems using DBpedia/YAGO, encoder-decoder networks, trained on COCO/Pascal VOC datasets."
+          - "Promoted from Staff Research Scientist to Acting Senior Key Expert within one year based on DARPA program leadership impact."
+
+      - company: Infosys Technologies
+        position: Senior Systems Engineer
+        location: Bengaluru, India
+        start_date: 2007-10-01
+        end_date: 2011-07-01
+        highlights:
+          - "Built iSEE (Infosys Sentiment Extraction Engine) for customer opinion mining; resulted in a granted US patent (2013)."
+          - "Developed Semantic Wiki integrations and BPEL-based workflow automation for enterprise clients; published at WWW 2009."
 
     Awards:
-      - title: Nobel Prize in Physics
-        authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
+      - title: "Co-PI, DARPA ASKE Program — $1.8M Award"
+        awarder: Defense Advanced Research Projects Agency (DARPA)
+        date: 2018-08-01
+        summary: Co-Principal Investigator on the $1.8M DARPA ASKE (Automating Scientific Knowledge Extraction) program at Siemens Corporate Technology.
 
-      - title: Max Planck Medal
-        authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
+      - title: AAAI SIGAI Doctoral Consortium Award
+        awarder: Association for the Advancement of Artificial Intelligence
+        date: 2016-02-01
+        summary: Selected for the AAAI 2016 Doctoral Consortium, recognizing outstanding doctoral research in AI.
+
+      - title: NSF Award
+        awarder: U.S. Semantic Technologies Symposium (US2TS 2018)
+        date: 2018-03-01
+        summary: NSF travel and recognition award at the U.S. Semantic Technologies Symposium.
+
+      - title: Three Minute Thesis (3MT) Finalist
+        awarder: RPI Graduate Research Symposium
+        date: 2016-04-01
+        summary: Finalist at the RPI Graduate Research Symposium 3MT competition.
 
     Publications:
-      - title: Zur Elektrodynamik bewegter Körper
+      - title: "Efficient Knowledge Graph Construction and Retrieval from Unstructured Text for Large-Scale RAG Systems"
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-06-30
-        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
+          - Min
+          - Mathew
+          - Pan
+          - Bansal
+          - Keshavarzi
+          - Amar Viswanathan Kannan
+        publisher: arXiv
+        releaseDate: 2025-07-01
 
-      - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
+      - title: "Towards Practical GraphRAG: Efficient Knowledge Graph Construction and Hybrid Retrieval at Scale"
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-03-18
-        url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-        summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
+          - Min
+          - Bansal
+          - Pan
+          - Keshavarzi
+          - Mathew
+          - Amar Viswanathan Kannan
+        publisher: arXiv
+        releaseDate: 2025-07-01
+        url: https://arxiv.org/abs/2507.03226
 
-      - title: Die Grundlage der allgemeinen Relativitätstheorie
+      - title: "Combining Knowledge Graphs and Retrieval Augmented Generation for Enterprise Resource Planning"
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1916-03-20
-        url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-        summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
+          - Amar Viswanathan Kannan
+          - Sasaki
+        publisher: ECIR 2025
+        releaseDate: 2025-01-01
+
+      - title: "Multimodal Knowledge Graph for Deep Learning Papers and Code"
+        authors:
+          - Amar Viswanathan Kannan
+          - Fradkin
+          - Akrotirianakis
+          - Kulahcioglu
+          - Canedo
+          - Roy
+          - Yu
+          - Malawade
+          - Al Faruque
+        publisher: CIKM 2020
+        releaseDate: 2020-10-01
+
+      - title: "Diag2Graph: Representing Deep Learning Diagrams in Research Papers as Knowledge Graphs"
+        authors:
+          - Roy
+          - Akrotirianakis
+          - Amar Viswanathan Kannan
+          - Fradkin
+          - Canedo
+          - Koneripalli
+          - Kulahcioglu
+        publisher: ICIP 2020
+        releaseDate: 2020-10-01
+
+      - title: "Deep Code Curation (DCC) — A Project to Build Multimodal Knowledge Graphs from Deep Learning Papers"
+        authors:
+          - Amar Viswanathan Kannan
+          - Akrotirianakis
+          - Roy
+        publisher: AKBC/SLKB Workshop 2019
+        releaseDate: 2019-01-01
+
+      - title: "Feature-based Reformulation of Entities in Triple Pattern Queries"
+        authors:
+          - Amar Viswanathan Kannan
+          - de Mel
+          - Hendler
+        publisher: arXiv
+        releaseDate: 2018-07-01
+        url: https://arxiv.org/abs/1807.01801
+
+      - title: "In-context Query Reformulation for Failing SPARQL Queries"
+        authors:
+          - Amar Viswanathan Kannan
+          - Michaelis
+          - de Mel
+          - Hendler
+        publisher: SPIE 2017
+        releaseDate: 2017-01-01
+
+      - title: "Leveraging Semantics for Large-Scale Knowledge Graph Evaluation"
+        authors:
+          - Rashid
+          - Amar Viswanathan Kannan
+          - Gross
+          - Kendall
+          - McGuinness
+        publisher: WebSci 2017
+        releaseDate: 2017-01-01
+
+      - title: "Pragmatic Querying in Heterogeneous Knowledge Graphs"
+        authors:
+          - Amar Viswanathan Kannan
+        publisher: AAAI 2016 Doctoral Consortium
+        releaseDate: 2016-02-01
+
+      - title: "Open Government Data: A Data Analytics Approach"
+        authors:
+          - Erickson
+          - Amar Viswanathan Kannan
+          - Shinavier
+          - Shi
+          - Hendler
+        publisher: IEEE Intelligent Systems
+        releaseDate: 2013-01-01
+
+      - title: "Semantic Wiki Aided Business Process Specification"
+        authors:
+          - Hussain
+          - Balakrishnan
+          - Amar Viswanathan Kannan
+        publisher: WWW 2009
+        releaseDate: 2009-01-01
 
     Skills:
-      - name: Physics
-        level: Master
-        icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+      - name: Agentic AI & LLM Systems
+        icon: fa-solid fa-robot
+        keywords: "Agentic architectures, chain-of-thought reasoning, LLM post-training, DSPy, RAG, GraphRAG, reasoning in LLMs"
+
+      - name: Knowledge Graphs & NLP
+        icon: fa-solid fa-diagram-project
+        keywords: "Knowledge graph construction, NER, relation extraction, SPARQL, RDF, Neo4j, embeddings, vector retrieval (Milvus)"
+
+      - name: ML Infrastructure
+        icon: fa-solid fa-server
+        keywords: "Apache Airflow, Databricks, EMR, vLLM, Docker"
+
+      - name: Languages & Frameworks
+        icon: fa-solid fa-code
+        keywords: "Python, PyTorch, HuggingFace, LangChain"
+
+      - name: People Leadership
+        icon: fa-solid fa-users
+        keywords: "Team hiring, OKRs, performance reviews, cross-functional stakeholder management"
 
     Languages:
-      - name: German
-        summary: "Native speaker"
-
       - name: English
         summary: "Fluent"
 
-    Interests:
-      - name: Physics
-        icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+      - name: Tamil
+        summary: "Native speaker"
 
-    Certificates:
-      - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-location-dot
+    Patents:
+      - title: "Methods for Analyzing User Opinions and Devices Thereof"
+        authors:
+          - Balakrishnan
+          - Vasudevan
+          - Amar Viswanathan Kannan
+          - Raghunathan
+          - Ravindran
+        publisher: US Patent App. 13/946,832
+        releaseDate: 2013-01-01
+        summary: Granted US patent for the iSEE sentiment extraction system developed at Infosys.
 
-      - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-tag
+    Professional Service:
+      - name: "Program Committee / Reviewer"
+        summary: "NAACL 2025–2026, ACL 2024–2026, AAAI 2022, CogSci 2015–2020, Big Data Journal"
 
-      - name: Quantum Information
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-envelope
+      - name: "Conference Chair"
+        summary: "CIKM 2020 (Demos & Posters Track)"
 
-    Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
-        highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
+      - name: "Organizer"
+        summary: "WebSci 2017"
 
-    References:
-      - name: Professor John Doe
-        icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
-
-      - name: Professor Jane Smith
-        icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+      - name: "Book Reviewer"
+        summary: "Manning Publications — Knowledge Graphs"
