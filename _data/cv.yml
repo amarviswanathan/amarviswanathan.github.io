@@ -275,26 +275,18 @@ cv:
         summary: "Native speaker"
 
     Patents:
-      - title: "Methods for Analyzing User Opinions and Devices Thereof"
-        authors:
-          - Balakrishnan
-          - Vasudevan
-          - Amar Viswanathan Kannan
-          - Raghunathan
-          - Ravindran
-        publisher: US Patent App. 13/946,832
-        releaseDate: 2013-01-01
-        summary: Granted US patent for the iSEE sentiment extraction system developed at Infosys.
+      - label: "Methods for Analyzing User Opinions and Devices Thereof"
+        details: "Granted US Patent, App. 13/946,832 (2013). Co-inventors: Balakrishnan, Vasudevan, Raghunathan, Ravindran. iSEE sentiment extraction system developed at Infosys."
 
     Professional Service:
-      - name: "Program Committee / Reviewer"
-        summary: "NAACL 2025–2026, ACL 2024–2026, AAAI 2022, CogSci 2015–2020, Big Data Journal"
+      - label: "Program Committee / Reviewer"
+        details: "NAACL 2025–2026, ACL 2024–2026, AAAI 2022, CogSci 2015–2020, Big Data Journal"
 
-      - name: "Conference Chair"
-        summary: "CIKM 2020 (Demos & Posters Track)"
+      - label: "Conference Chair"
+        details: "CIKM 2020 (Demos & Posters Track)"
 
-      - name: "Organizer"
-        summary: "WebSci 2017"
+      - label: "Organizer"
+        details: "WebSci 2017"
 
-      - name: "Book Reviewer"
-        summary: "Manning Publications — Knowledge Graphs"
+      - label: "Book Reviewer"
+        details: "Manning Publications — Knowledge Graphs"
