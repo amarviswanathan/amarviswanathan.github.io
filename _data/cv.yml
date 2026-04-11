@@ -7,7 +7,7 @@ cv:
   summary: |
     Applied Science leader with 12+ years of experience (8+ years post-PhD in industry) and 3 years of formal people management — hiring, performance reviews, and goal-setting — leading teams of MLEs and Senior Scientists at Amazon, SAP, Verisk, and Siemens Research. Delivered 6 production launches across B2C ads, enterprise AI, financial news, and insurance, driving $26M+ in combined business and research impact.
 
-    Tech Lead & Single Threaded Owner: Led two major initiatives at Amazon Ads: (1) TACTIC, the first agentic system for targeting clause relevance and ranking optimization — driving ad campaign performance through automated promotion and demotion — and (2) AutoTrends, an autonomous trend-aware agentic system for detecting implicit and explicit trends in targeting; both launched Q1 2026 across 69M+ campaigns worldwide.
+    Tech Lead and Single Threaded Owner: Led two major initiatives at Amazon Ads: (1) TACTIC, the first agentic system for targeting clause relevance and ranking optimization — driving ad campaign performance through automated promotion and demotion — and (2) AutoTrends, an autonomous trend-aware agentic system for detecting implicit and explicit trends in targeting; both launched Q1 2026 across 69M+ campaigns worldwide.
 
     Single Threaded Owner - Distributed Optimization System: Developed a scalable distributed optimization system with DSPy-powered explainability (beta launched April 2026).
 
@@ -28,28 +28,18 @@ cv:
 
   sections:
     Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
+      - institution: Rensselaer Polytechnic Institute
+        location: Troy, NY
+        url: https://www.rpi.edu/
+        area: Computer Science
         studyType: PhD
-        start_date: 1900
-        end_date: 1905
+        start_date: 2011
+        end_date: 2018
         score: ""
-        courses: "Theory of Relativity"
+        Thesis: "Schema-and data-aware query reformulation in knowledge graphs"
         highlights:
-          - Description 1.
-          - Description 2.
-
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
-        highlights:
-          - Description 1.
-          - Description 2.
+          - AAAI 2016 Doctoral Consortium Award.
+          - 3MT Thesis finalist.
 
     Experience:
       - company: Institute for Advanced Study, Princeton University
