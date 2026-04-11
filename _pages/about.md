@@ -2,16 +2,12 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: Senior Applied Scientist, Amazon Ads
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -27,8 +23,8 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I'm a Senior Applied Scientist at Amazon, where I lead the design and deployment of large-scale ML and agentic AI systems in Amazon Ads — systems that operate across tens of millions of ad campaigns worldwide. My current work focuses on autonomous optimization: building systems that reason, adapt, and act at scale with minimal human intervention.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+Before Amazon, I was Principal Scientist at SAP, where I led the end-to-end research and launch of SAP Consultant Capability (SCC), a production enterprise RAG system handling 22,000+ multi-turn conversations per day with measurable business impact. I've also worked at Dataminr, building real-time LLM systems over 19 million tweets per day, and at Siemens Research, where I served as Co-PI on a $1.8M DARPA program building multimodal knowledge graphs.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+My work sits at the intersection of agentic AI, RAG, knowledge graphs, and production ML — turning research ideas into systems that ship and scale. I hold a PhD from Rensselaer Polytechnic Institute under James Hendler, have published at ECIR, CIKM, and AAAI, and hold a granted US patent with several more in progress. I write and share about what I'm learning at the frontier: agentic architectures, GraphRAG, and reasoning in LLMs, and the messy gap between research and real-world deployment.
