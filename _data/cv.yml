@@ -1,23 +1,9 @@
 cv:
   name: Amar Viswanathan
-  label: Scientist
+  # label: Scientist  # not a RenderCV field
   email: amarviswanathan@gmail.com
   location: New York, NY
-  image: ""
-  summary: |
-    Applied Science leader with 12+ years of experience (8+ years post-PhD in industry) and 3 years of formal people management — hiring, performance reviews, and goal-setting — leading teams of MLEs and Senior Scientists at Amazon, SAP, Verisk, and Siemens Research. Delivered 6 production launches across B2C ads, enterprise AI, financial news, and insurance, driving $26M+ in combined business and research impact.
-
-    Tech Lead and Single Threaded Owner: Led two major initiatives at Amazon Ads: (1) TACTIC, the first agentic system for targeting clause relevance and ranking optimization — driving ad campaign performance through automated promotion and demotion — and (2) AutoTrends, an autonomous trend-aware agentic system for detecting implicit and explicit trends in targeting; both launched Q1 2026 across 69M+ campaigns worldwide.
-
-    Single Threaded Owner - Distributed Optimization System: Developed a scalable distributed optimization system with DSPy-powered explainability (beta launched April 2026).
-
-    People Leadership: Formally managed teams of up to 16 across multiple companies; hired and grew ML teams, conducted structured 1:1s, set OKRs, and delivered performance reviews for MLEs and Senior Scientists.
-
-    Technical Depth: Deep expertise in RAG, LLM post-training, agentic AI, GraphRAG, Knowledge Graphs, NER/RE, embeddings, and vector retrieval. Experience with production systems at scale: 69M+ ad campaigns, 22K enterprise conversations/day, and 19M tweets/day.
-
-    Research Credibility: PhD (RPI), co-PI on $1.8M DARPA ASKE program, 15+ peer-reviewed publications and arXiv papers (ECIR, CIKM, ICIP), 1 granted US patent, and 5+ patent applications in progress. Reviewer for NAACL, ACL, and AAAI.
-
-    Agentic Workflow & Automation: Early adopter of coding agents (Amazon Kiro CLI, Amazon Q, Codex) for ML pipeline development, code generation, and rapid iteration — applied directly to the TACTIC and AutoTrends codebases.
+  # image: ""  # not a RenderCV field
   social_networks:
     - network: X
       username: amarv
@@ -27,6 +13,15 @@ cv:
       username: amarviswanathan
 
   sections:
+    Summary:
+      - "Applied Science leader with 12+ years of experience (8+ years post-PhD in industry) and 3 years of formal people management — hiring, performance reviews, and goal-setting — leading teams of MLEs and Senior Scientists at Amazon, SAP, Verisk, and Siemens Research. Delivered 6 production launches across B2C ads, enterprise AI, financial news, and insurance, driving $26M+ in combined business and research impact."
+      - "**Tech Lead & Single Threaded Owner:** Led two major initiatives at Amazon Ads: (1) TACTIC, the first agentic system for targeting clause relevance and ranking optimization — driving ad campaign performance through automated promotion and demotion — and (2) AutoTrends, an autonomous trend-aware agentic system for detecting implicit and explicit trends in targeting; both launched Q1 2026 across 69M+ campaigns worldwide."
+      - "**Single Threaded Owner - Distributed Optimization System:** Developed a scalable distributed optimization system with DSPy-powered explainability (beta launched April 2026)."
+      - "**People Leadership:** Formally managed teams of up to 16 across multiple companies; hired and grew ML teams, conducted structured 1:1s, set OKRs, and delivered performance reviews for MLEs and Senior Scientists."
+      - "**Technical Depth:** Deep expertise in RAG, LLM post-training, agentic AI, GraphRAG, Knowledge Graphs, NER/RE, embeddings, and vector retrieval. Experience with production systems at scale: 69M+ ad campaigns, 22K enterprise conversations/day, and 19M tweets/day."
+      - "**Research Credibility:** PhD (RPI), co-PI on $1.8M DARPA ASKE program, 15+ peer-reviewed publications and arXiv papers (ECIR, CIKM, ICIP), 1 granted US patent, and 5+ patent applications in progress. Reviewer for NAACL, ACL, and AAAI."
+      - "**Agentic Workflow & Automation:** Early adopter of coding agents (Amazon Kiro CLI, Amazon Q, Codex) for ML pipeline development, code generation, and rapid iteration — applied directly to the TACTIC and AutoTrends codebases."
+
     Education:
       - institution: Rensselaer Polytechnic Institute
         location: Troy, NY
@@ -42,14 +37,14 @@ cv:
           - 3MT Thesis finalist.
 
     Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
+      - company: Siemens Corporate Research
+        position: Research Scientist and Acting Senior Key Expert
         location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
+        start_date: 2018
+        end_date: 2021
+        summary: Worked on 
         highlights:
-          - Relativity
+          - 
           - Description 2.
 
       - company: California Institute of Technology
