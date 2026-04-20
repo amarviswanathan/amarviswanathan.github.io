@@ -1,10 +1,6 @@
 metadata:
-  last_updated: '2026-04-15'
+  last_updated: '2026-04-20'
 papers:
-  1YecUQMAAAAJ:2P1L_qKh6hAC:
-    citations: 183
-    title: 'Mukea: Multimodal knowledge extraction and accumulation for knowledge-based visual question answering'
-    year: '2022'
   1YecUQMAAAAJ:4DMP91E08xMC:
     citations: 3
     title: Pragmatic querying in heterogeneous knowledge graphs
@@ -14,7 +10,7 @@ papers:
     title: Methods for analyzing user opinions and devices thereof
     year: '2014'
   1YecUQMAAAAJ:70eg2SAEIzsC:
-    citations: 17
+    citations: 18
     title: 'Docs2kg: Unified knowledge graph construction from heterogeneous documents assisted by large language models'
     year: '2024'
   1YecUQMAAAAJ:J_g5lzvAfSwC:
