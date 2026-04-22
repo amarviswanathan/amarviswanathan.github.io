@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-04-20'
+  last_updated: '2026-04-22'
 papers:
   1YecUQMAAAAJ:4DMP91E08xMC:
     citations: 3
@@ -9,10 +9,6 @@ papers:
     citations: 1
     title: Methods for analyzing user opinions and devices thereof
     year: '2014'
-  1YecUQMAAAAJ:70eg2SAEIzsC:
-    citations: 18
-    title: 'Docs2kg: Unified knowledge graph construction from heterogeneous documents assisted by large language models'
-    year: '2024'
   1YecUQMAAAAJ:J_g5lzvAfSwC:
     citations: 0
     title: Combining Knowledge Graphs and Retrieval Augmented Generation for Enterprise Resource Planning
@@ -30,7 +26,7 @@ papers:
     title: Deep Code Curation (DCC) - A project to build multimodal knowledge graphs from deep learning papers
     year: '2019'
   1YecUQMAAAAJ:RYcK_YlVTxYC:
-    citations: 6
+    citations: 7
     title: Efficient knowledge graph construction and retrieval from unstructured text for large-scale rag systems
     year: '2025'
   1YecUQMAAAAJ:Wp0gIr-vW9MC:
