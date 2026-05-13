@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-04-22'
+  last_updated: '2026-05-13'
 papers:
   1YecUQMAAAAJ:4DMP91E08xMC:
     citations: 3
@@ -42,7 +42,7 @@ papers:
     title: Feature-based reformulation of entities in triple pattern queries
     year: '2018'
   1YecUQMAAAAJ:lSLTfruPkqcC:
-    citations: 2
+    citations: 3
     title: 'Towards Practical GraphRAG: Efficient Knowledge Graph Construction and Hybrid Retrieval at Scale'
     year: '2025'
   1YecUQMAAAAJ:ns9cj8rnVeAC:
