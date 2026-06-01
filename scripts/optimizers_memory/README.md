@@ -33,4 +33,3 @@ Figures are written to:
 - `matplotlib`
 - `torch`
 - `scikit-learn` (optional; local two-moons fallback is included)
-
