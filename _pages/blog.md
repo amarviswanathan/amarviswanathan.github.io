@@ -5,7 +5,7 @@ title: blog
 nav: true
 nav_order: 1
 pagination:
-  enabled: true
+  enabled: false
   collection: posts
   permalink: /page/:num/
   per_page: 5
@@ -54,9 +54,10 @@ pagination:
       {% endfor %}
     </ul>
   </div>
-  {% endif %}
+{% endif %}
 
-{% assign featured_posts = site.posts | where: "featured", "true" %}
+{% assign visible_posts = site.posts | where_exp: "post", "post.categories contains 'sample-posts' == false and post.categories contains 'external-posts' == false" %}
+{% assign featured_posts = visible_posts | where: "featured", "true" %}
 {% if featured_posts.size > 0 %}
 <br>
 
@@ -103,11 +104,7 @@ pagination:
 
   <ul class="post-list">
 
-    {% if page.pagination.enabled %}
-      {% assign postlist = paginator.posts %}
-    {% else %}
-      {% assign postlist = site.posts %}
-    {% endif %}
+    {% assign postlist = visible_posts %}
 
     {% for post in postlist %}
 
@@ -188,9 +185,5 @@ pagination:
     {% endfor %}
 
   </ul>
-
-{% if page.pagination.enabled %}
-{% include pagination.liquid %}
-{% endif %}
 
 </div>
