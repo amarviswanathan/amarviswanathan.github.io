@@ -23,7 +23,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-a-post-with-plotly-js",
+        },{id: "post-optimizers-are-memory-a-visual-guide-from-sgd-to-adamw",
+        
+          title: "Optimizers Are Memory: A Visual Guide from SGD to AdamW",
+        
+        description: "A visual guide to SGD, Momentum, RMSProp, Adam, and AdamW as different memory mechanisms over gradients.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/optimizers-are-memory/";
+          
+        },
+      },{id: "post-a-post-with-plotly-js",
         
           title: "a post with plotly.js",
         
