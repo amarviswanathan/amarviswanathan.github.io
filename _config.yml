@@ -91,8 +91,8 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: al-folio # blog_name will be displayed in your blog page
-blog_description: a simple whitespace theme for academics
+blog_name: The Training Signal # blog_name will be displayed in your blog page
+blog_description: A collection of small updates in models, in code, and in understanding.
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
@@ -271,8 +271,8 @@ jekyll-archives:
   books:
     enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
 
-display_tags: ["formatting", "images", "links", "math", "code", "blockquotes"] # these tags will be displayed on the front page of your blog
-display_categories: ["external-services"] # these categories will be displayed on the front page of your blog
+display_tags: [] # empty list hides the tag strip on /blog
+display_categories: [] # empty list hides the category strip on /blog
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
