@@ -4,6 +4,14 @@ title: "Optimizers Are Memory: A Visual Guide from SGD to AdamW"
 date: 2026-06-01
 categories: [deep-learning, optimization]
 tags: [pytorch, optimizers, sgd, adam, adamw, deep-learning]
+_styles: >
+  #markdown-content img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
 ---
 
 # Optimizers Are Memory: A Visual Guide from SGD to AdamW
@@ -94,7 +102,7 @@ At every point, the gradient points directly away from the minimum. Following th
 
 ![SGD on a simple bowl](/assets/images/optimizers-memory/sgd_bowl.png)
 
-*On a round bowl, the current gradient is a reliable guide. SGD does not need memory when the landscape is this friendly.*
+_On a round bowl, the current gradient is a reliable guide. SGD does not need memory when the landscape is this friendly._
 
 This is the best possible case for SGD. The loss is smooth, symmetric, and equally curved in every direction. The current gradient contains enough information to make good progress.
 
@@ -186,7 +194,7 @@ That is exactly what we want in a narrow valley.
 
 ![Momentum in a ravine](/assets/images/optimizers-memory/momentum_ravine.png)
 
-*SGD keeps reacting to the latest sideways gradient. Momentum remembers the directions that persist and damps directions that flip.*
+_SGD keeps reacting to the latest sideways gradient. Momentum remembers the directions that persist and damps directions that flip._
 
 In the steep direction, SGD alternates back and forth. Momentum sees that alternation and smooths it out. In the shallow direction, gradients are more consistent, so momentum builds speed.
 
@@ -262,7 +270,7 @@ The \(y\)-coordinate produces much larger gradients than the \(x\)-coordinate. S
 
 ![RMSProp scale adaptation](/assets/images/optimizers-memory/rmsprop_scale.png)
 
-*RMSProp remembers how large each coordinate's gradients have been. Coordinates with consistently large gradients get smaller effective steps.*
+_RMSProp remembers how large each coordinate's gradients have been. Coordinates with consistently large gradients get smaller effective steps._
 
 This is the second kind of optimizer memory:
 
@@ -302,7 +310,7 @@ $$
 w_{t+1} = w_t - \eta \frac{\hat{m}_t}{\sqrt{\hat{v}_t} + \epsilon}
 $$
 
-where \(\hat{m}_t\) and \(\hat{v}_t\) are bias-corrected estimates. We will discuss those in the next section.
+where $\hat{m}_t$ and $\hat{v}_t$ are bias-corrected estimates. We will discuss those in the next section.
 
 A compact implementation looks like this:
 
@@ -354,7 +362,7 @@ Now the optimizer has to deal not only with curvature, but also with stochastici
 
 ![Adam on noisy gradients](/assets/images/optimizers-memory/adam_noisy.png)
 
-*Adam combines direction memory and scale memory: the first moment smooths noisy directions, while the second moment rescales coordinates with consistently large gradients.*
+_Adam combines direction memory and scale memory: the first moment smooths noisy directions, while the second moment rescales coordinates with consistently large gradients._
 
 This is why Adam is often a strong default. It is not magic. It is forgiving because it carries more information forward from the past.
 
@@ -402,7 +410,7 @@ This correction matters most at the beginning of training.
 
 ![Bias correction](/assets/images/optimizers-memory/bias_correction.png)
 
-*Moving averages initialized at zero underestimate early values. Bias correction removes this startup artifact.*
+_Moving averages initialized at zero underestimate early values. Bias correction removes this startup artifact._
 
 Bias correction is easy to dismiss as a detail, but it is part of making Adam's memory usable from the first few steps.
 
@@ -481,7 +489,7 @@ In words:
 
 ![AdamW weight decay](/assets/images/optimizers-memory/adamw_weight_decay.png)
 
-*AdamW decays weights directly. Adam with L2 first mixes the penalty into the gradient, then sends it through Adam's adaptive denominator.*
+_AdamW decays weights directly. Adam with L2 first mixes the penalty into the gradient, then sends it through Adam's adaptive denominator._
 
 This is why AdamW is not just "Adam with a different name." It changes where regularization enters the update.
 
@@ -495,13 +503,13 @@ The phrase "optimizers are memory" is not just conceptual. It is literal.
 
 For a model with \(N\) trainable parameters, different optimizers store different amounts of extra state.
 
-| Optimizer | What it remembers | Extra optimizer state |
-|---|---|---:|
-| SGD | nothing | \(0\) |
-| Momentum | velocity | \(N\) |
-| RMSProp | squared-gradient average | \(N\) |
-| Adam | first moment and second moment | \(2N\) |
-| AdamW | first moment and second moment | \(2N\) |
+| Optimizer | What it remembers              | Extra optimizer state |
+| --------- | ------------------------------ | --------------------: |
+| SGD       | nothing                        |                 \(0\) |
+| Momentum  | velocity                       |                 \(N\) |
+| RMSProp   | squared-gradient average       |                 \(N\) |
+| Adam      | first moment and second moment |                \(2N\) |
+| AdamW     | first moment and second moment |                \(2N\) |
 
 This is extra memory on top of the parameters and gradients.
 
@@ -533,7 +541,7 @@ Linear regression is simple enough that every reasonable optimizer should solve 
 
 ![Linear regression loss curves](/assets/images/optimizers-memory/linear_regression_loss.png)
 
-*Linear regression is intentionally boring. It checks that every optimizer implementation can solve a simple differentiable problem.*
+_Linear regression is intentionally boring. It checks that every optimizer implementation can solve a simple differentiable problem._
 
 This experiment also gives us a concrete way to count optimizer state.
 
@@ -576,7 +584,7 @@ The task is nonlinear, but still easy to visualize. We can plot the final decisi
 
 ![Two moons decision boundary](/assets/images/optimizers-memory/moons_decision_boundary.png)
 
-*The two-moons task is small enough to visualize, but nonlinear enough that optimizer choice changes how quickly and cleanly the model finds a useful boundary.*
+_The two-moons task is small enough to visualize, but nonlinear enough that optimizer choice changes how quickly and cleanly the model finds a useful boundary._
 
 This experiment should not be overinterpreted. It is not proof that one optimizer always generalizes better. It is just a small real model where optimizer behavior becomes visible.
 
