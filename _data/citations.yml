@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-05-13'
+  last_updated: '2026-06-22'
 papers:
   1YecUQMAAAAJ:4DMP91E08xMC:
     citations: 3
@@ -42,11 +42,11 @@ papers:
     title: Feature-based reformulation of entities in triple pattern queries
     year: '2018'
   1YecUQMAAAAJ:lSLTfruPkqcC:
-    citations: 3
+    citations: 4
     title: 'Towards Practical GraphRAG: Efficient Knowledge Graph Construction and Hybrid Retrieval at Scale'
     year: '2025'
   1YecUQMAAAAJ:ns9cj8rnVeAC:
-    citations: 13
+    citations: 14
     title: 'Diag2graph: Representing deep learning diagrams in research papers as knowledge graphs'
     year: '2020'
   1YecUQMAAAAJ:qxL8FJ1GzNcC:
@@ -62,6 +62,6 @@ papers:
     title: Semantic wiki aided business process specification
     year: '2009'
   1YecUQMAAAAJ:zYLM7Y9cAGgC:
-    citations: 34
+    citations: 35
     title: 'Open government data: A data analytics approach'
     year: '2013'
