@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-06-22'
+  last_updated: '2026-07-15'
 papers:
   1YecUQMAAAAJ:4DMP91E08xMC:
     citations: 3
@@ -18,7 +18,7 @@ papers:
     title: Leveraging semantics for large-scale knowledge graph evaluation
     year: '2017'
   1YecUQMAAAAJ:O3NaXMp0MMsC:
-    citations: 72
+    citations: 73
     title: Multimodal knowledge graph for deep learning papers and code
     year: '2020'
   1YecUQMAAAAJ:RGFaLdJalmkC:
@@ -26,7 +26,7 @@ papers:
     title: Deep Code Curation (DCC) - A project to build multimodal knowledge graphs from deep learning papers
     year: '2019'
   1YecUQMAAAAJ:RYcK_YlVTxYC:
-    citations: 7
+    citations: 9
     title: Efficient knowledge graph construction and retrieval from unstructured text for large-scale rag systems
     year: '2025'
   1YecUQMAAAAJ:Wp0gIr-vW9MC:
@@ -42,11 +42,11 @@ papers:
     title: Feature-based reformulation of entities in triple pattern queries
     year: '2018'
   1YecUQMAAAAJ:lSLTfruPkqcC:
-    citations: 4
+    citations: 7
     title: 'Towards Practical GraphRAG: Efficient Knowledge Graph Construction and Hybrid Retrieval at Scale'
     year: '2025'
   1YecUQMAAAAJ:ns9cj8rnVeAC:
-    citations: 14
+    citations: 15
     title: 'Diag2graph: Representing deep learning diagrams in research papers as knowledge graphs'
     year: '2020'
   1YecUQMAAAAJ:qxL8FJ1GzNcC:
