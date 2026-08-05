@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-07-15'
+  last_updated: '2026-08-05'
 papers:
   1YecUQMAAAAJ:4DMP91E08xMC:
     citations: 3
@@ -26,7 +26,7 @@ papers:
     title: Deep Code Curation (DCC) - A project to build multimodal knowledge graphs from deep learning papers
     year: '2019'
   1YecUQMAAAAJ:RYcK_YlVTxYC:
-    citations: 9
+    citations: 11
     title: Efficient knowledge graph construction and retrieval from unstructured text for large-scale rag systems
     year: '2025'
   1YecUQMAAAAJ:Wp0gIr-vW9MC:
@@ -42,8 +42,8 @@ papers:
     title: Feature-based reformulation of entities in triple pattern queries
     year: '2018'
   1YecUQMAAAAJ:lSLTfruPkqcC:
-    citations: 7
-    title: 'Towards Practical GraphRAG: Efficient Knowledge Graph Construction and Hybrid Retrieval at Scale'
+    citations: 8
+    title: 'Towards practical graphrag: Efficient knowledge graph construction and hybrid retrieval at scale'
     year: '2025'
   1YecUQMAAAAJ:ns9cj8rnVeAC:
     citations: 15
@@ -54,14 +54,14 @@ papers:
     title: Pragmatics and discourse in knowledge graphs
     year: '2015'
   1YecUQMAAAAJ:u-x6o8ySG0sC:
-    citations: 15
+    citations: 14
     title: Suggestion mining from customer reviews
     year: '2011'
   1YecUQMAAAAJ:u5HHmVD_uO8C:
-    citations: 12
+    citations: 13
     title: Semantic wiki aided business process specification
     year: '2009'
   1YecUQMAAAAJ:zYLM7Y9cAGgC:
-    citations: 35
+    citations: 36
     title: 'Open government data: A data analytics approach'
     year: '2013'
