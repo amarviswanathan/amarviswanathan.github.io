@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-08-05'
+  last_updated: '2026-08-17'
 papers:
   1YecUQMAAAAJ:4DMP91E08xMC:
     citations: 3
@@ -10,7 +10,7 @@ papers:
     title: Methods for analyzing user opinions and devices thereof
     year: '2014'
   1YecUQMAAAAJ:J_g5lzvAfSwC:
-    citations: 0
+    citations: 1
     title: Combining Knowledge Graphs and Retrieval Augmented Generation for Enterprise Resource Planning
     year: '2025'
   1YecUQMAAAAJ:M3NEmzRMIkIC:
@@ -54,7 +54,7 @@ papers:
     title: Pragmatics and discourse in knowledge graphs
     year: '2015'
   1YecUQMAAAAJ:u-x6o8ySG0sC:
-    citations: 14
+    citations: 15
     title: Suggestion mining from customer reviews
     year: '2011'
   1YecUQMAAAAJ:u5HHmVD_uO8C:
