@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-08-24'
+  last_updated: '2026-09-04'
 papers:
   1YecUQMAAAAJ:4DMP91E08xMC:
     citations: 3
@@ -42,7 +42,7 @@ papers:
     title: Feature-based reformulation of entities in triple pattern queries
     year: '2018'
   1YecUQMAAAAJ:lSLTfruPkqcC:
-    citations: 10
+    citations: 11
     title: 'Towards practical graphrag: Efficient knowledge graph construction and hybrid retrieval at scale'
     year: '2025'
   1YecUQMAAAAJ:ns9cj8rnVeAC:
@@ -54,7 +54,7 @@ papers:
     title: Pragmatics and discourse in knowledge graphs
     year: '2015'
   1YecUQMAAAAJ:u-x6o8ySG0sC:
-    citations: 15
+    citations: 14
     title: Suggestion mining from customer reviews
     year: '2011'
   1YecUQMAAAAJ:u5HHmVD_uO8C:
