@@ -30,6 +30,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
+        },{id: "nav-deep-ml",
+          title: "Deep-ML",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/https:/amarviswanathan.github.io/deep-ml/";
+          },
         },{id: "post-optimizers-are-memory-a-visual-guide-from-sgd-to-adamw",
         
           title: "Optimizers Are Memory: A Visual Guide from SGD to AdamW",
