@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450" role="img" aria-labelledby="title desc">
+  <title id="title">Machine learning practice</title>
+  <desc id="desc">A layered neural network with luminous violet nodes on a dark blue mathematical grid.</desc>
+  <defs>
+    <linearGradient id="background" x2="1" y2="1"><stop stop-color="#0a1526"/><stop offset="1" stop-color="#152b42"/></linearGradient>
+    <radialGradient id="halo"><stop stop-color="#af9bff" stop-opacity=".15"/><stop offset="1" stop-color="#af9bff" stop-opacity="0"/></radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M 40 0 H 0 V 40" fill="none" stroke="#b2c8df" stroke-opacity=".065"/></pattern>
+  </defs>
+  <rect width="800" height="450" fill="url(#background)"/>
+  <rect width="800" height="450" fill="url(#grid)"/>
+  <ellipse cx="400" cy="210" rx="340" ry="230" fill="url(#halo)"/>
+  <g transform="translate(10 20)">
+    <g fill="none" stroke="#af9bff" stroke-opacity=".23" stroke-width="1.4"><path d="M 150 110 L 310 70"/><path d="M 150 110 L 310 150"/><path d="M 150 110 L 310 230"/><path d="M 150 110 L 310 310"/><path d="M 150 190 L 310 70"/><path d="M 150 190 L 310 150"/><path d="M 150 190 L 310 230"/><path d="M 150 190 L 310 310"/><path d="M 150 270 L 310 70"/><path d="M 150 270 L 310 150"/><path d="M 150 270 L 310 230"/><path d="M 150 270 L 310 310"/><path d="M 310 70 L 470 110"/><path d="M 310 70 L 470 190"/><path d="M 310 70 L 470 270"/><path d="M 310 150 L 470 110"/><path d="M 310 150 L 470 190"/><path d="M 310 150 L 470 270"/><path d="M 310 230 L 470 110"/><path d="M 310 230 L 470 190"/><path d="M 310 230 L 470 270"/><path d="M 310 310 L 470 110"/><path d="M 310 310 L 470 190"/><path d="M 310 310 L 470 270"/><path d="M 470 110 L 630 150"/><path d="M 470 110 L 630 230"/><path d="M 470 190 L 630 150"/><path d="M 470 190 L 630 230"/><path d="M 470 270 L 630 150"/><path d="M 470 270 L 630 230"/></g>
+    <path d="M 150 190 L 310 230 L 470 190 L 630 230" fill="none" stroke="#f0d4ff" stroke-opacity=".8" stroke-width="2.5"/>
+    <circle cx="150" cy="110" r="19" fill="#11273d" stroke="#af9bff" stroke-width="2"/><circle cx="150" cy="110" r="7" fill="#af9bff"/><circle cx="150" cy="190" r="19" fill="#11273d" stroke="#af9bff" stroke-width="2"/><circle cx="150" cy="190" r="7" fill="#af9bff"/><circle cx="150" cy="270" r="19" fill="#11273d" stroke="#af9bff" stroke-width="2"/><circle cx="150" cy="270" r="7" fill="#f0d4ff"/><circle cx="310" cy="70" r="19" fill="#11273d" stroke="#af9bff" stroke-width="2"/><circle cx="310" cy="70" r="7" fill="#af9bff"/><circle cx="310" cy="150" r="19" fill="#11273d" stroke="#af9bff" stroke-width="2"/><circle cx="310" cy="150" r="7" fill="#f0d4ff"/><circle cx="310" cy="230" r="19" fill="#11273d" stroke="#af9bff" stroke-width="2"/><circle cx="310" cy="230" r="7" fill="#af9bff"/><circle cx="310" cy="310" r="19" fill="#11273d" stroke="#af9bff" stroke-width="2"/><circle cx="310" cy="310" r="7" fill="#af9bff"/><circle cx="470" cy="110" r="19" fill="#11273d" stroke="#af9bff" stroke-width="2"/><circle cx="470" cy="110" r="7" fill="#f0d4ff"/><circle cx="470" cy="190" r="19" fill="#11273d" stroke="#af9bff" stroke-width="2"/><circle cx="470" cy="190" r="7" fill="#af9bff"/><circle cx="470" cy="270" r="19" fill="#11273d" stroke="#af9bff" stroke-width="2"/><circle cx="470" cy="270" r="7" fill="#af9bff"/><circle cx="630" cy="150" r="19" fill="#11273d" stroke="#af9bff" stroke-width="2"/><circle cx="630" cy="150" r="7" fill="#af9bff"/><circle cx="630" cy="230" r="19" fill="#11273d" stroke="#af9bff" stroke-width="2"/><circle cx="630" cy="230" r="7" fill="#af9bff"/>
+  </g>
+  <g fill="none" stroke="#af9bff" stroke-width="2" stroke-linecap="round" opacity=".75">
+    <path d="M 77 66 H 60 V 88 M 723 66 H 740 V 88 M 60 342 V 364 H 77 M 740 342 V 364 H 723"/>
+  </g>
+  <g fill="#af9bff" opacity=".65"><circle cx="370" cy="405" r="3"/><circle cx="390" cy="405" r="3"/><circle cx="410" cy="405" r="3"/><circle cx="430" cy="405" r="3"/></g>
+</svg>
