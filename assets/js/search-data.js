@@ -23,19 +23,19 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
+        },{id: "nav-projects",
+          title: "Projects",
+          description: "Hands-on practice with machine learning fundamentals.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/projects/";
+          },
         },{id: "nav-cv",
           title: "CV",
           description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
-          },
-        },{id: "nav-deep-ml",
-          title: "Deep-ML",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/https:/amarviswanathan.github.io/deep-ml/";
           },
         },{id: "post-optimizers-are-memory-a-visual-guide-from-sgd-to-adamw",
         
@@ -472,6 +472,16 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
+            },},{id: "projects-deep-ml-solutions",
+          title: 'Deep-ML Solutions',
+          description: "Practicing machine learning fundamentals through hands-on coding challenges on Deep-ML.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/deep-ml/";
+            },},{id: "projects-tensortonic-solutions",
+          title: 'TensorTonic Solutions',
+          description: "Practicing machine learning fundamentals through hands-on coding challenges on TensorTonic.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/tensortonic/";
             },},{id: "teachings-data-science-fundamentals",
           title: 'Data Science Fundamentals',
           description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
